@@ -1,0 +1,51 @@
+.v-container .image-container{
+    border: 8px solid rgb(241, 237, 237);
+    width: 26rem;
+    height: 35rem;
+
+}
+.v-container>div{
+    flex: 1;
+}
+.v-left{
+    gap: 1rem;
+    margin-left: 50px;
+}
+.v-right{
+    gap: 0.5rem;
+    margin-right: 50px;
+}
+.accordion{
+    margin-top: 2rem;
+    border: none;
+}
+.accordionItem{
+    background: white;
+    border: 3px solid rgb(128, 128, 128, 0.148);
+    border-radius: 8px;
+    margin-bottom: 10px;
+    overflow: hidden;
+  
+}
+.accordionButton{
+     background-color: white;
+     padding: 0.5rem;
+     width: 100%;
+     justify-content: space-between;
+     cursor: pointer;
+} 
+.icon{
+    padding: 10px;
+    background: #eeeeff;
+    border-radius: 5px;
+}
+.icon svg{
+    color: var(--blue);
+}
+.accordionButton .primaryText{
+    font-size: 1.1rem;
+}
+
+
+
+
