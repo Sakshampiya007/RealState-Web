@@ -5,12 +5,13 @@ import Residencies from "./components/Residencies/Residencies";
 import Value from "./components/Value/Value";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import './App.css';
 
 function App() {
   return (
     <div className="App">
     <div>
-      <div className="white gredient"/>
+      <div className="white-gredient"/>
     <Header/>
     <Hero/>
     </div>
@@ -20,7 +21,6 @@ function App() {
     <Contact/>
     <Footer/>
     </div>
-
   );
 }
 
