@@ -15,3 +15,9 @@
 .h-menu>*:hover{
     cursor: pointer;
 }
+.button{
+    background: #0426ad;
+    border: 0.1px solid #a7b8fd;
+    border-radius: 5px;
+    box-shadow: var(--shadow);
+}

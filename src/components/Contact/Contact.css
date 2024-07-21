@@ -30,7 +30,7 @@
 }
 .mode .button{
     width: 100%;
-    background: rgb(206, 231, 237);
+    background: #eeeeff;
     color: var(--blue);
     font-size: 0.9rem;
     font-weight: 600;

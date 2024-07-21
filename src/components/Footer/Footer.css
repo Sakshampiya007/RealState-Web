@@ -1,0 +1,36 @@
+.f-container{
+    background: #0325ac;
+    gap: 1rem;
+    padding: 2rem;
+    border: 1px solid #5075fc;
+    text-align: center;
+    justify-content: space-between;
+}
+
+/* .inner-container .primaryText{
+    color: azure;
+    font-weight: 600;
+} */
+/* .f-container .secondaryText{
+    color: white;
+}  */
+.f-container .button{
+    background: #5a73d7;
+    border: 2px solid rgb(119, 135, 243);
+    border-radius: 5px;
+    box-shadow: var(--shadow);
+}
+.f-menu{
+    color: white;
+    font-weight: 500;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.f-left{
+gap: 0.5rem;
+}
+.Text{
+    color: white;
+    font-weight: 500;
+}
