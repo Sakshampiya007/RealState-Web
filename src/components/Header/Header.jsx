@@ -5,6 +5,7 @@ import OutsideClickHandler from 'react-outside-click-handler';
 
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false)
+
   const getMenuStyles = (menuOpened) => {
     if (document.documentElement.clientWidth <= 800)
       {
@@ -32,10 +33,12 @@ const Header = () => {
          <a href="">Contact</a>
        </button>
      </div>
-     </OutsideClickHandler>
+     
+     
         <div className="menu-icon" onClick={()=>setMenuOpened((prev)=>!prev)}>
           <BiMenuAltRight size={30}/>
         </div>
+        </OutsideClickHandler>
     </div>
 
    

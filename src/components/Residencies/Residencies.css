@@ -1,6 +1,6 @@
 .r-container{
     overflow: hidden;
-    /* position: relative; */
+    position: relative;
 }
 .r-head{
     margin-bottom: 2rem;
@@ -30,10 +30,11 @@
     width: 15rem;
 }
 
+
 .r-card:hover{
     scale: 1.025;
     cursor: pointer;
-    background-color: lightcyan;
+    background-color: #eeeeff;
     box-shadow: 0px 72px 49px -51px rgba(136, 160, 255, 0.21);;
 }
 .swiper-horizontal{
@@ -49,7 +50,7 @@
     font-size: 1.8rem;
     color: black;
     border-radius: 5px;
-    background-color: aliceblue;
+    background-color: #eeeeff;
     cursor: pointer;
     border: none;
     margin: 10px;
@@ -69,3 +70,27 @@
     cursor: pointer;
     box-shadow: 0px 72px 49px -51px rgba(136, 160, 255, 0.21);;
 }
+
+
+@media (max-width: 640px) {
+
+
+.r-wrapper {
+    padding: 10px;
+}
+
+.innerWidth {
+    padding: 0 10px;
+}
+
+.r-head .primaryText {
+    font-size: 20px;
+}
+
+.r-card {
+    padding: 5px;
+}
+
+}
+
+

@@ -1,4 +1,5 @@
 
+
 .c-container{
     justify-content: space-between;
 }
@@ -7,10 +8,11 @@
 }
 .c-right{
     width: 100%;
+    margin-left: 250px;
 }
 .c-left{
     gap: 0.5rem;
-    margin-left: 60px;
+    margin-left: 1px;
 }
 .contactModes{
     margin-top: 2rem;
@@ -55,6 +57,26 @@
     border: 6px solid rgb(206, 231, 237);
     width: 25rem;
     height: 28rem;  
+}
+@media (max-width: 648px){
+    .c-wrapper{
+        margin-top: 25px;
+    }
+    .c-right{
+        justify-content: center;
+        margin-left: -4px;
+    }
+    .c-left{
+        margin-right: 10rem;
+    }
+    .contactModes{
+        width: 100%; 
+        padding: 14px;
+        margin-top:2px;
+    }
+     .mode{
+        width: 100%;
+     }
 }
 
 

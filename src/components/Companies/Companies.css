@@ -1,7 +1,21 @@
 .c-container{
     justify-content: start;
-    gap: 12rem;
+    gap: 1rem;
 }
 .c-container>img{
     width: 10rem;
+   
 }
+
+@media (max-width: 648px) {
+  
+    .c-container{
+        gap: 1rem;
+        
+    }
+    .c-container>img{
+        width: 22%;
+        max-height: 30%;
+    }
+}
+

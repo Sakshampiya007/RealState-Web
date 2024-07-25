@@ -1,7 +1,7 @@
 .v-container .image-container{
-    border: 6px solid rgb(241, 237, 237);
-    width: 25rem;
-    height: 31rem;
+    /* border: 6px solid rgb(241, 237, 237); */
+    width: 24rem;
+    height: 25rem;
 
 }
 .v-container>div{
@@ -9,11 +9,11 @@
 }
 .v-left{
     gap: 1rem;
-    margin-left: 50px;
+    margin-left: 1px;
 }
 .v-right{
     gap: 0.5rem;
-    margin-right: 50px;
+    margin-right: 1px;
 }
 .accordion{
     margin-top: 2rem;
@@ -45,7 +45,18 @@
 .accordionButton .primaryText{
     font-size: 1.1rem;
 }
+@media (max-width: 1024px){
+    .v-container{
+        flex-direction: column;
+    }
+    
 
+    @media (max-width: 768px) {
+        .accordionButton{
+            font-size: 0.8rem;
+        }   
+}
 
+}
 
 
